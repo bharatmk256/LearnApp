@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Linear_Layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="A layout that arranges other views either horizontally in a single column or vertically in a single row. "
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="The following snippet shows how to include a linear layout in your layout XML file:"
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/linearcode"
+        android:layout_margin="15dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Set android:orientation to specify whether child views are displayed in a row or column."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="To control how linear layout aligns all the views it contains, set a value for android:gravity. For example, the snippet above sets android:gravity to center. The value you set affects both horizontal and vertical alignment of all child views within the single row or column."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="You can set android:layout_weight on individual child views to specify how linear layout divides remaining space amongst the views it contains. See the Linear Layout guide for an example."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="See LinearLayout.LayoutParams to learn about other attributes you can set on a child view to affect its position and size in the containing linear layout."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+</LinearLayout>
+</ScrollView>

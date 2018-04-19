@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bharat.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bharat.myapplication.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bharat.myapplication.Linear_Layout"
+            android:label="LinearLayout" />
+        <activity
+            android:name="com.example.bharat.myapplication.Relative_Layout"
+            android:label="RelativeLayout" />
+        <activity
+            android:name="com.example.bharat.myapplication.Constraint_layout"
+            android:label="ConstraintLayout" />
+        <activity
+            android:name="com.example.bharat.myapplication.Scroll_View"
+            android:label="ScrollView" />
+        <activity
+            android:name="com.example.bharat.myapplication.Card_View"
+            android:label="CardView" />
+        <activity
+            android:name="com.example.bharat.myapplication.Java"
+            android:label="Java" />
+        <activity
+            android:name="com.example.bharat.myapplication.Kotlin"
+            android:label="Kotlin" />
+        <activity
+            android:name="com.example.bharat.myapplication.Splash"
+            android:label="splash" >
+        </activity>
+    </application>
+
+</manifest>
